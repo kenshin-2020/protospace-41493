@@ -55,8 +55,7 @@
 #   password: <%= ENV["PROTOSPACE_41493_DATABASE_PASSWORD"] %>
 
 
-
-  default: &default
+default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
